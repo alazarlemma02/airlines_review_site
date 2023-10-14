@@ -10,5 +10,4 @@ class AirlineDemo < ApplicationRecord
   def average_score
     reviews.average(:score).round(2).to_f
   end
-
 end
